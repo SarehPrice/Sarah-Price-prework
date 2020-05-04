@@ -9,7 +9,7 @@ nav {
     width: 100%;
     background-color: gray;
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
  }
 
 .center {
@@ -52,5 +52,5 @@ footer{
     width: 100%;
     background-color: green;
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
  }
