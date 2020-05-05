@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Demo</title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="reset.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body data-spy="scroll" data-target="#main-navbar">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Sarah Price</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  
+  	<!-- BANNER -->
+	<div class="jumbotron">
+		<div class="container text-center">
+      <p class="text-muted">BRINGING FANCY IDEAS TO LIFE</p>
+      <h1 class="display-1">DIGITAL HEAVEN</h1>
+      <button type="button" class="btn btn-dark">GET A FREE QUOTE</button>
+			</div> <!-- end btn-group -->
+		</div> <!-- end container -->
+	</div> <!-- end jumbotron -->
+
+    <!-- Creates the Overall Grid -->
+    <div class="container">
+
+      <!-- Row 1 -->
+      <section>
+      <div class="row bg-dark text-white">
+        <div class="col-sm-12">
+          <h1 class="display-4">All about rocks!</h1>
+        </div>
+      </div>
+    </section>
+  
+      <!-- Row 2 -->
+      <div class="row mb-5 pb-2 bg-dark text-white">
+        <div class="col-sm-6">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti illo voluptates blanditiis nisi! Ullam dolore aspernatur, ratione error similique veniam iusto, labore repellat eaque nostrum optio doloribus illo nihil dolor?</p>
+        </div>
+        <div class="col-sm-6">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi sequi ex quam quia iste, nemo molestias dolor, qui dolorem voluptatibus ipsa maxime voluptas et deserunt porro repellendus veritatis nesciunt quisquam.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Row 3-->
+      <section>
+    <div class="card-group px-3 mb-5">
+      <div class="card px-1">
+        <img src="Images/Rocks.jpg" class="card-img-top" alt="rocks">
+        <div class="card-body">
+          <h5 class="card-title">Rocks Everywhere</h5>
+          <p class="card-text">Rocks are really great. Sometimes you can find cool ones even around your house.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card px-1">
+        <img src="Images/bottles.jpg" class="card-img-top" alt="bottles">
+        <div class="card-body">
+          <h5 class="card-title">Rocks and Minerals</h5>
+          <p class="card-text">Rocks come in all shapes and sizes. They are really awesome like that. </p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card px-1">
+        <img src="Images/flourite.jpg" class="card-img-top" alt="mineral">
+        <div class="card-body">
+          <h5 class="card-title">Flourite</h5>
+          <p class="card-text">This is Flourite. It's a really pretty green and purple banded rock.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </section>
+   
+    <!-- CONTACT -->
+
+    <section>
+      <div class="row px-3 mb-5">
+        <div class="col-sm-12">
+          <h1 class="display-4">Contact Us!</h1>
+        </div>
+      </div>
+
+    </section>
+				<div class="col-lg-8">
+					<form action="#" class="form-horizontal" role="form">
+						<div class="form-group">
+							<label for="contact-name" class="col-lg-2 control-label">Name</label>
+
+							<div class="col-lg-10">
+								<input type="text" class="form-control" id="contact-name" placeholder="Name">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="contact-email" class="col-lg-2 control-label">Email address</label>
+
+							<div class="col-lg-10">
+								<input type="email" class="form-control" id="contact-email" placeholder="Email address">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="contact-website" class="col-lg-2 control-label">Website</label>
+
+							<div class="col-lg-10">
+								<input type="url" class="form-control" id="contact-website" placeholder="Website">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="contact-message" class="col-lg-2 control-label">Message</label>
+
+							<div class="col-lg-10">
+								<textarea name="contact-message" id="contact-message" class="form-control" cols="30" rows="10" placeholder="Message"></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-lg-10 col-lg-offset-2">
+								<button type="submit" class="btn btn-primary">Send Message</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div> <!-- end row -->
+		</section>
+
+
+		
+
+</body>
+
+</html>
