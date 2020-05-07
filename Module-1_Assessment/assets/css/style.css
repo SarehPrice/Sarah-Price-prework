@@ -1,0 +1,33 @@
+
+
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif; color: #4aaaa5;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.footer {
+    background-color: #777777;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    }
+    /* main content {
+        background-color: #ffffff;
+        border-color: #dddddd;
+        }
+        
+        headings {
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        } */
