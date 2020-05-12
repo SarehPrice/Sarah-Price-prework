@@ -9,6 +9,10 @@ body {
 	color: fuchsia;
 }
 
+h1 {
+    font-size: 40px;
+}
+
 #title {
 	text-align: center;
 	margin-top: 20px;
