@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Sarah's Game</title>
+	<head>
+		<meta charset="UTF-8">
+		<title>Hangman</title>
 
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
 
-    <body>
-        <h1>MY Game</h1>
-    </body>
+		<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	</head>
+	<body>
+		<div id="main-content">
+			<div id="title">
+				<img src="assets/images/hangmanbanner.png">
+			</div>
 
-    <script src="game.js">
-    </script>
+			<div id="instruction">
+                <h1>Press Any Key to Start</h1>
+			</div>
+
+
+
+			<div id="game-div" class="panel">
+				<div id="word-display">
+					<p id="word-display-letters"></p>
+				</div>
+
+				<div id="general-display">
+                    <div class="guessborder">
+					<p>Guessed-Letters</p>
+                    <p> <span id="guessed-letters"></span></p>
+                    </div>
+                    <div class="borderbox">
+					<p>Stats</p>
+					<p>Number of Guesses Remaining: <span id="error-count"></span></p>
+					<p> Wins: <span id="win-count"></span></p>
+                    <p> Losses: <span id="loss-count"></span></p>
+                </div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="./assets/javascript/game.js"></script>
+	</body>
 </html>
