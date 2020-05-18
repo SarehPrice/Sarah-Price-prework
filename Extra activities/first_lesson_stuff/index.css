@@ -1,0 +1,14 @@
+body {
+  background-color: #F5DEB3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: maroon;
+  font-size: 48px;
+  text-decoration: underline;
+}
+
+p {
+  color: limegreen;

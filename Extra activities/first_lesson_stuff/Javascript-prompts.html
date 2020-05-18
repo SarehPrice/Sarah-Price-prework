@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Prompt & Alert</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+    <!-- Create a flowchart to represent the following program, then code it out.
+
+    Using a loop, prompt the user to enter five names.
+    Push each name to a nameList array.
+    Using another loop, render/alert the five student names.
+    Challenge:
+    
+    Don't forget to flowchart FIRST!
+    
+    Prompt the user for a number of students in the class.
+    Prompt the user to input that many names.
+    Render all of the names.
+    Ultra Challenge:
+    
+    Working off of the bonus, print only the people whose names include the letter a. -->
+
+    <script>
+        const userName = prompt('What is your name?');
+        const userEmail = prompt('What is your email?');
+        const userPass = prompt('Enter a password.');
+
+        // CHALLENGE
+        const userConfirm = confirm('Would you like your login credentials to be remembered?');
+
+        alert(`Username: ${userName}`);
+        alert(`Email: ${userEmail}`);
+        alert(`Password: ${userPass}`);
+
+        // CHALLENGE
+        alert(`Remember Login Credentials? ${userConfirm}`);
+
+        const nameList = [];
+
+for (let i = 0; i < 5; i++){
+  const name = prompt('Enter a name');
+  nameList.push(name);
+}
+
+for (let i = 0; i < nameList.length; i++){
+  const name = nameList[i];
+  alert(name);
+}
+
+// Challenge
+
+const challengeList = [];
+const challengeQuestion = parseInt(prompt('How many people are in the class?'));
+
+for (let i = 0; i < challengeQuestion; i++) {
+    const newName = prompt(`Enter person number ${i+1}'s name:`);
+    challengeList.push(newName);
+}
+
+for (let i = 0; i < challengeList.length; i++) {
+    console.log(challengeList[i]);
+}
+
+// ULTRA CHALLENGE
+
+for (let i = 0; i < challengeList.length; i++) {
+    if (challengeList[i].includes('a')) {
+        console.log(challengeList[i]);
+    }
+}
+
+    </script>
+</body>
+</html>
