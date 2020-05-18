@@ -1,7 +1,7 @@
 # Sarah-Price-prework
  Dev10 
 
-Consisting of four lesson assesments and 2 Module Assesments!
+Consisting of four lesson assessments and 2 Module Assessments!
 Bootstrap
 CSS
 HTML/Basic CSS
